@@ -4,7 +4,6 @@ var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 var mandrillTransport = require('nodemailer-mandrill-transport');
 // node variable
-var dotenv  = require('dotenv').config();
 var jsonQuery = require('json-query');
 
 
@@ -15,7 +14,7 @@ var jsonfile = require('jsonfile');
 // Start Server
 var app = express();
 // var router = express.Router();
-var port = process.env.PORT || 3000 ;
+var port =  3000 ;
 // Public path configuration
 app.use(express.static(__dirname + '/App'));
 // parse application/x-www-form-urlencoded
