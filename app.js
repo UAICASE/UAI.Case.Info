@@ -14,7 +14,10 @@ var jsonfile = require('jsonfile');
 // Start Server
 var app = express();
 // var router = express.Router();
-var port =  3000 ;
+//var port =  3000 ;
+
+var port = process.env.PORT || 3000 ;
+
 // Public path configuration
 app.use(express.static(__dirname + '/App'));
 // parse application/x-www-form-urlencoded
