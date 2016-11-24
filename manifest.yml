@@ -3,6 +3,6 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: uaicase-info
-  host: uaicase-info
+  name: nodesampleuaicase
+  host: nodesampleuaicase
   
