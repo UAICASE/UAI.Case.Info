@@ -5,5 +5,5 @@ applications:
   domain: mybluemix.net
   name: uaicase-info
   host: uaicase-info
-   disk_quota: 2048M
+  disk_quota: 2048M
   
