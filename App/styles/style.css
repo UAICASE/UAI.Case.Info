@@ -7328,7 +7328,7 @@ button.close {
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -8039,6 +8039,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 50px;
   color: #4fd2c2;
 }
+
+
+
+
 .fh5co-feature .fh5co-feature-lead, .fh5co-feature .fh5co-figure-lead, .fh5co-figure .fh5co-feature-lead, .fh5co-figure .fh5co-figure-lead {
   font-size: 12px;
   letter-spacing: 2px;
@@ -8046,6 +8050,26 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+
+
+
+
+
+.fh5co-publication-lead {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.fh5co-publication-text {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
 .fh5co-feature .fh5co-feature-text, .fh5co-feature .fh5co-figure-text, .fh5co-figure .fh5co-feature-text, .fh5co-figure .fh5co-figure-text {
   color: #919191;
   padding-left: 20px;
@@ -8067,7 +8091,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-feature:hover .fh5co-feature-icon, .fh5co-feature.active .fh5co-feature-icon, .fh5co-figure:hover .fh5co-feature-icon, .fh5co-figure.active .fh5co-feature-icon {
   background: #4fd2c2;
 }
-.fh5co-feature:hover .fh5co-feature-icon i, .fh5co-feature.active .fh5co-feature-icon i, .fh5co-figure:hover .fh5co-feature-icon i, .fh5co-figure.active .fh5co-feature-icon i {
+ .fh5co-feature:hover .fh5co-feature-icon i, .fh5co-feature.active .fh5co-feature-icon i, .fh5co-figure:hover .fh5co-feature-icon i, .fh5co-figure.active .fh5co-feature-icon i {
   color: #fff;
 }
 
@@ -8958,7 +8982,7 @@ a > img.fh5co-align-center {
         .item {
             transition-property: opacity;
         }
-        
+
         .item,
         .active.left,
         .active.right {
@@ -8987,10 +9011,10 @@ a > img.fh5co-align-center {
 
 
 
-html, 
-body, 
-.carousel, 
-.carousel-inner, 
+html,
+body,
+.carousel,
+.carousel-inner,
 .carousel-inner .item {
     height: 100%;
 }
