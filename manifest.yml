@@ -1,8 +1,9 @@
 applications:
 - path: .
-  memory: 512M
+  memory: 1024M
   instances: 1
   domain: mybluemix.net
   name: uaicase-info
   host: uaicase-info
+   disk_quota: 2048M
   
