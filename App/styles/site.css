@@ -97,11 +97,12 @@ body {
         }
 
         .timeline > li > .timeline-panel {
+            background: #b0bec5;
             z-index: 9999;
             color: #000 !important;
             width: 46%;
             float: left;
-            border: 1px solid #cecece;
+            border: 1px solid #b0bec5;
             border-radius: 2px;
             padding: 20px;
             position: relative;
@@ -115,8 +116,8 @@ body {
                 right: -15px;
                 display: inline-block;
                 border-top: 15px solid transparent;
-                border-left: 15px solid #ccc;
-                border-right: 0 solid #ccc;
+                border-left: 15px solid #b0bec5;
+                border-right: 0 solid #b0bec5;
                 border-bottom: 15px solid transparent;
                 content: " ";
             }
@@ -127,8 +128,8 @@ body {
                 right: -14px;
                 display: inline-block;
                 border-top: 14px solid transparent;
-                border-left: 14px solid #fff;
-                border-right: 0 solid #fff;
+                border-left: 14px solid #b0bec5;
+                border-right: 0 solid #b0bec5;
                 border-bottom: 14px solid transparent;
                 content: " ";
             }
