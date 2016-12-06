@@ -240,3 +240,22 @@ body {
             right: auto;
         }
 }
+
+.modal {
+    background: transparent;
+    box-shadow: 0 16px 28px 0 rgba(0,0,0,0),0 25px 55px 0 rgba(0,0,0,0);
+}
+
+.modal .modal-content {
+    border-radius: 0;
+    border: 0;
+}
+
+.modal .modal-footer {
+    background: transparent;
+
+}
+
+.modal .modal-footer a{
+    color: #fff
+}

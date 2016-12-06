@@ -42,7 +42,7 @@
 			var section = $(this).data('nav-section')
 		    $('html, body').animate({
 		        scrollTop: $('[data-section="' + section + '"]').offset().top
-		    }, 500);
+		    }, 700);
 		    return false;
 		});
 	};
